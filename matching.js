@@ -45,13 +45,13 @@ function match () {
       	    winner();
       	    	if (winCount != 16) {
       	    		setTimeout(modalOpen, 250);
-      	    		setTimeout(modalClose, 1500);
+      	    		setTimeout(modalClose, 1000);
       	    	}
     } else {
     	document.querySelector("h2").innerHTML = "NO MATCH";
-    		setTimeout(noMatch, 1000);
+    		setTimeout(noMatch, 700);
     		setTimeout(modalOpen, 250);
-      	    setTimeout(modalClose, 1500);
+      	    setTimeout(modalClose, 1000);
     }	
 }
 
